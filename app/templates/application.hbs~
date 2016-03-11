@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<div class="header-wrap">
+	<header class="header-content">
+		<div class="account-display">
+			<span>Sample School</span>
+			<ul class="account-menu">
+				<li class="account-menu-button">
+					<ul>
+						<li><a href="">My Account</a></li>
+						<li><a href="signin.html">Sign Out</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<h1 class="header-logo">
+			<a href="">ICTSC5</a>
+		</h1>
+	</header>
+	<div class="header-gnav-wrap">
+		<nav class="header-gnav">
+			<ul class="clearfix">
+				<li>{{#link-to "index"}}TOP</a></li>
+				<li>{{#link-to "issues"}}ISSUES</a></li>
+				<li>{{#link-to "answer"}}ANSWER</a></li>
+				<li>{{#link-to "question"}}QUESTION</a></li>
+				<li>{{#link-to "notification"}}INFOMATION</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+{{outlet}}
+<footer class="footer-wrap">
+	<div class="footer-content clearfix">
+		<div class="copyright">&copy; ICTSC. All Rights Reserved.</div>
+	</div>
+</footer>
